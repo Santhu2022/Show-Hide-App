@@ -1,0 +1,66 @@
+.main-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 40px;
+}
+@media screen and (min-width: 768px){
+    .app-heading{
+        font-size: 50px;
+    }
+}
+.app-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    /* border: 1px solid black; */
+}
+.individual-conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 15px;
+    /* border: 1px solid black; */
+    height: 230px;
+    width: 230px;
+}
+.button {
+    color: #dd1264;
+    font-family: 'Roboto';
+    padding: 8px 20px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.name-container {
+    color: #000000;
+    background-color: #fddddb;
+    height: 120px;
+    width: 240px;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-text {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 26px;
+}
